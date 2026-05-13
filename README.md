@@ -46,9 +46,3 @@ This project focuses on analyzing the sentiment of financial texts or tweets. It
 * **การจัดการและวิเคราะห์ข้อมูล**: Pandas, NumPy
 * **Machine Learning & NLP**: Scikit-learn, Imbalanced-learn (SMOTE), NLTK
 * **Data Visualization**: Matplotlib, Seaborn, WordCloud
-
-## 🚀 การติดตั้งและการทดลองใช้งาน (Getting Started)
-1. โปรเจกต์นี้ถูกเขียนและรันบน Google Colab
-2. การนำเข้าข้อมูลมีการเรียกใช้งานจาก Google Drive (`/content/drive/My Drive/data.csv`) คุณจำเป็นต้องเมานท์ (Mount) Google Drive และเปลี่ยนที่อยู่ไฟล์ให้ตรงกับชุดข้อมูลของคุณ
-3. เซลล์ในช่วงแรกจะมีการดาวน์โหลดแพ็กเกจ `stopwords` จากไลบรารี NLTK กรุณารันเพื่อเตรียมความพร้อมสำหรับการทำความสะอาดข้อความ
-4. รันโค้ดตามลำดับเซลล์เพื่อดำเนินการตั้งแต่ Data Import, Data Preprocessing, Modeling ไปจนถึง Evaluation
